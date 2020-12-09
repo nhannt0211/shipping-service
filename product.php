@@ -10,62 +10,62 @@ class Product
 	private $productDepth;
 	private $productType;
 
-	public function set(int $price)
+	public function setAmazonPrice(int $price)
 	{
 		$this->amazonPrice = $price;
 	}
 
-	public function get()
+	public function getAmazonPrice()
 	{
 		return $this->amazonPrice;
 	}
 
-	public function set(int $weight)
+	public function setProductWeight(int $weight)
 	{
 		$this->productWeight = $weight;
 	}
 
-	public function get()
+	public function getProductWeight()
 	{
 		return $this->productWeight;
 	}
 
-	public function set(int $width)
+	public function setProductWidth(int $width)
 	{
 		$this->productWidth = $width;
 	}
 
-	public function get()
+	public function getProductWidth()
 	{
 		return $this->productWidth;
 	}
 
-	public function set(int $height)
+	public function setProductHeight(int $height)
 	{
 		$this->productHeight = $height;
 	}
 
-	public function get()
+	public function getProductHeight()
 	{
 		return $this->productHeight;
 	}
 
-	public function set(int $depth)
+	public function setProductDepth(int $depth)
 	{
 		$this->productDepth = $depth;
 	}
 
-	public function get()
+	public function getProductDepth()
 	{
 		return $this->productDepth;
 	}
 
-	public function set(string $type)
+	public function setProductType(string $type)
 	{
 		$this->productType = $type;
 	}
 
-	public function get()
+	public function getProductType()
 	{
 		return $this->productType;
 	}
